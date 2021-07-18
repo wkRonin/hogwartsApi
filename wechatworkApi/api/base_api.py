@@ -4,6 +4,7 @@
 # @File    :base_api.py
 import requests
 
+
 class BaseApi:
 
     CORPID = "wwc71c43dfb2ba3f16"
