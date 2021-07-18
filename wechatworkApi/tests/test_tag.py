@@ -3,7 +3,7 @@
 # @Author  : wkRonin
 # @File    :test_tag.py
 
-from zhibo.api.tag import Tag
+from wechatworkApi.api.tag import Tag
 
 
 class TestTag:

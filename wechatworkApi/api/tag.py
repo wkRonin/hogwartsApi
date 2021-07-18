@@ -4,7 +4,7 @@
 # @File    :tag.py
 import requests
 
-from zhibo.api.base_api import BaseApi
+from wechatworkApi.api.base_api import BaseApi
 
 """
 必填参数放到函数的参数中，非必填放到
