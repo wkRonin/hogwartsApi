@@ -11,7 +11,7 @@ import pytest
 @pytest.fixture()
 def get_unique_name():
     """
-    标签名= 时间戳+线程名
+    自定义名称= 时间戳+线程名 ：防止并行时同名失败
     :return:
     """
     tag_name = str(time.time()) + threading.currentThread().name
